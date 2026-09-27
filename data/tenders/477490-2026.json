@@ -1,0 +1,43 @@
+{
+  "id": "477490-2026",
+  "language": "FRA",
+  "title": "Assistance à maitrise d’ouvrage pour l’accompagnement de la démarche projets économiques structurants",
+  "buyer": "Région Bourgogne-Franche-Comté",
+  "buyer_country": "FRA",
+  "description": "Assistance à maitrise d’ouvrage pour l’accompagnement de la démarche projets économiques structurants",
+  "lot_title": "Assistance à maitrise d’ouvrage pour l’accompagnement de la démarche projets économiques structurants",
+  "lot_description": "Assistance à maitrise d’ouvrage pour l’accompagnement de la démarche projets économiques structurants",
+  "deadline": "2026-08-31",
+  "duration": {
+    "value": 26,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 83333333.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72224000",
+  "cpv": [
+    "72224000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 35.0,
+      "description": "Méthodologie"
+    },
+    {
+      "type": "price",
+      "points": 35.0,
+      "description": "Prix"
+    },
+    {
+      "type": "quality",
+      "points": 30.0,
+      "description": "Qualité de l'organisation et des moyens himains"
+    }
+  ],
+  "publication_date": "2026-07-10",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/477490-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

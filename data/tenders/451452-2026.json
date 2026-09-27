@@ -1,0 +1,45 @@
+{
+  "id": "451452-2026",
+  "language": "FRA",
+  "title": "Externalisation des serveurs",
+  "buyer": "Administration communale de Neupré",
+  "buyer_country": "BEL",
+  "description": "Externalisation des serveurs",
+  "lot_title": "Externalisation des serveurs",
+  "lot_description": "Externalisation des serveurs",
+  "deadline": "2026-07-20",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72500000",
+  "cpv": [
+    "72500000"
+  ],
+  "award_criteria": [
+    {
+      "type": "cost",
+      "points": 40.0,
+      "description": "Prix"
+    },
+    {
+      "type": "quality",
+      "points": 30.0,
+      "description": "Qualité technique"
+    },
+    {
+      "type": "quality",
+      "points": 15.0,
+      "description": "Référence et expérience"
+    },
+    {
+      "type": "quality",
+      "points": 15.0,
+      "description": "SLA et support"
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/451452-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

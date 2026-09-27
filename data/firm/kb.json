@@ -1,0 +1,71 @@
+{
+  "_notice": "FICTIONAL. Quorvelle Conseil does not exist. Every record below (firm, clients, people, figures) is invented for testing a tender-writing system. Any resemblance to a real company or person is accidental.",
+  "firm": {
+    "id": "FIRM",
+    "name": "Quorvelle Conseil",
+    "legal_form": "SAS",
+    "founded": 2012,
+    "headquarters": "Lyon, France",
+    "offices": ["Lyon", "Paris", "Lille"],
+    "headcount": 142,
+    "revenue_eur": {"2024": 16900000, "2025": 18400000},
+    "professional_liability_insurance_eur": 5000000,
+    "languages": ["fr", "en"],
+    "domains": ["application maintenance (TMA)", "web and mobile development", "data and AI", "IT project management assistance (AMOA)", "cybersecurity governance and audit", "cloud migration"],
+    "does_not_do": ["data-centre hosting on own infrastructure", "hardware supply", "24/7 security operations centre (SOC)", "telecom network works"],
+    "partners": [{"id": "PART-01", "role": "sovereign cloud hosting partner (named in each bid)", "note": "hosting is subcontracted, never provided directly"}]
+  },
+  "certifications_held": [
+    {"id": "CERT-ISO27001", "name": "ISO/IEC 27001", "scope": "information security management for consulting, development and application maintenance services (not hosting)", "valid_until": "2027-11-30"},
+    {"id": "CERT-ISO9001", "name": "ISO 9001", "scope": "quality management for all consulting and delivery activities", "valid_until": "2028-03-31"},
+    {"id": "CERT-QUALIOPI", "name": "Qualiopi", "scope": "training activities", "valid_until": "2027-06-30"}
+  ],
+  "certifications_not_held": [
+    {"id": "NOCERT-HDS", "name": "HDS (Hébergeur de Données de Santé)"},
+    {"id": "NOCERT-SECNUMCLOUD", "name": "SecNumCloud"},
+    {"id": "NOCERT-PASSI", "name": "PASSI"},
+    {"id": "NOCERT-ISO14001", "name": "ISO 14001"},
+    {"id": "NOCERT-ISO22301", "name": "ISO 22301"},
+    {"id": "NOCERT-ISO20000", "name": "ISO/IEC 20000-1"}
+  ],
+  "references": [
+    {"id": "REF-001", "sector": "local government", "client_type": "French regional council", "year": 2023, "duration_months": 36, "value_eur": 1450000, "services": ["application maintenance (TMA)", "corrective and evolutive maintenance"], "team_size": 9, "technologies": ["Java", "Angular", "PostgreSQL"], "outcome": "incident backlog reduced by 60% in the first year", "language": "fr"},
+    {"id": "REF-002", "sector": "local government", "client_type": "French metropolitan authority", "year": 2024, "duration_months": 24, "value_eur": 620000, "services": ["web development", "RGAA accessibility audit and remediation"], "team_size": 5, "technologies": ["Drupal", "Symfony"], "outcome": "citizen portal reached RGAA 4.1 partial compliance at 87%", "language": "fr"},
+    {"id": "REF-003", "sector": "health", "client_type": "French university hospital", "year": 2022, "duration_months": 18, "value_eur": 480000, "services": ["IT project management assistance (AMOA)", "GDPR compliance support"], "team_size": 4, "technologies": [], "outcome": "patient-scheduling project delivered on time; no health data hosted by the firm", "language": "fr"},
+    {"id": "REF-004", "sector": "energy", "client_type": "French energy distribution company", "year": 2024, "duration_months": 30, "value_eur": 2100000, "services": ["data platform build", "data governance"], "team_size": 12, "technologies": ["Azure", "Databricks", "Python"], "outcome": "metering data platform in production for 14 regional agencies", "language": "fr"},
+    {"id": "REF-005", "sector": "transport", "client_type": "French urban transport operator", "year": 2023, "duration_months": 12, "value_eur": 350000, "services": ["mobile development"], "team_size": 6, "technologies": ["Kotlin", "Swift", "Flutter"], "outcome": "ticketing app released with 200,000 monthly active users", "language": "fr"},
+    {"id": "REF-006", "sector": "higher education", "client_type": "French university", "year": 2025, "duration_months": 24, "value_eur": 540000, "services": ["cloud migration", "application maintenance (TMA)"], "team_size": 7, "technologies": ["AWS", "Moodle", "Terraform"], "outcome": "learning platform migrated with 99.8% availability during term time", "language": "fr"},
+    {"id": "REF-007", "sector": "local government", "client_type": "French departmental council", "year": 2025, "duration_months": 48, "value_eur": 1800000, "services": ["application maintenance (TMA)", "identity and access management integration"], "team_size": 10, "technologies": ["Java", "Keycloak", "Oracle"], "outcome": "single sign-on rolled out to 6,000 agents", "language": "fr"},
+    {"id": "REF-008", "sector": "finance", "client_type": "French mutual insurance group", "year": 2022, "duration_months": 20, "value_eur": 900000, "services": ["cybersecurity governance", "ISO 27001 readiness assessment"], "team_size": 5, "technologies": [], "outcome": "client certified ISO/IEC 27001 at first audit", "language": "fr"},
+    {"id": "REF-009", "sector": "EU agency", "client_type": "European Union agency", "year": 2024, "duration_months": 36, "value_eur": 1250000, "services": ["IT consultancy", "identity and access management"], "team_size": 8, "technologies": ["Keycloak", "Azure AD", "Java"], "outcome": "access management consolidated from 4 directories to 1", "language": "en"},
+    {"id": "REF-010", "sector": "local government", "client_type": "Belgian municipality (Wallonia)", "year": 2023, "duration_months": 24, "value_eur": 410000, "services": ["web development", "application maintenance (TMA)"], "team_size": 4, "technologies": ["PHP", "Vue.js"], "outcome": "e-services portal with 30 online procedures", "language": "fr"},
+    {"id": "REF-011", "sector": "industry", "client_type": "French aerospace supplier", "year": 2025, "duration_months": 14, "value_eur": 380000, "services": ["data and AI", "predictive maintenance model"], "team_size": 5, "technologies": ["Python", "scikit-learn", "Azure ML"], "outcome": "unplanned downtime reduced by 18% on the pilot line", "language": "en"},
+    {"id": "REF-012", "sector": "public health agency", "client_type": "French national public body", "year": 2024, "duration_months": 30, "value_eur": 1300000, "services": ["application maintenance (TMA)", "web development"], "team_size": 8, "technologies": [".NET", "React", "SQL Server"], "outcome": "release cadence moved from quarterly to monthly", "language": "fr"},
+    {"id": "REF-013", "sector": "local government", "client_type": "French intercommunal authority", "year": 2024, "duration_months": 18, "value_eur": 260000, "services": ["IT project management assistance (AMOA)", "digital transformation roadmap"], "team_size": 3, "technologies": [], "outcome": "five-year digital roadmap adopted by the board", "language": "fr"},
+    {"id": "REF-014", "sector": "retail", "client_type": "European retail group", "year": 2023, "duration_months": 10, "value_eur": 290000, "services": ["cloud migration"], "team_size": 5, "technologies": ["GCP", "Kubernetes"], "outcome": "12 applications migrated with no customer-facing outage", "language": "en"},
+    {"id": "REF-015", "sector": "local government", "client_type": "French city", "year": 2025, "duration_months": 36, "value_eur": 720000, "services": ["web development", "application maintenance (TMA)", "RGAA accessibility audit and remediation"], "team_size": 6, "technologies": ["WordPress", "Symfony"], "outcome": "city and agglomeration websites merged into one platform", "language": "fr"}
+  ],
+  "consultants": [
+    {"id": "CV-01", "name": "Hélène Varnier (fictional)", "role": "engagement director", "years": 19, "skills": ["bid management", "public procurement", "IT governance"], "certifications": ["PMP"], "languages": ["fr", "en"]},
+    {"id": "CV-02", "name": "Karim Delaunoy (fictional)", "role": "application maintenance manager", "years": 14, "skills": ["TMA", "ITIL", "service levels"], "certifications": ["ITIL 4 Foundation"], "languages": ["fr"]},
+    {"id": "CV-03", "name": "Sofia Martel-Brun (fictional)", "role": "lead Java architect", "years": 12, "skills": ["Java", "Spring", "Keycloak", "microservices"], "certifications": [], "languages": ["fr", "en"]},
+    {"id": "CV-04", "name": "Julien Arcadet (fictional)", "role": "cloud architect", "years": 10, "skills": ["AWS", "Azure", "Terraform", "Kubernetes"], "certifications": ["AWS Solutions Architect Professional"], "languages": ["fr", "en"]},
+    {"id": "CV-05", "name": "Nadia Ferrant (fictional)", "role": "data engineering lead", "years": 9, "skills": ["Databricks", "Python", "data governance"], "certifications": ["Databricks Data Engineer Professional"], "languages": ["fr", "en"]},
+    {"id": "CV-06", "name": "Thomas Leborgne (fictional)", "role": "cybersecurity governance consultant", "years": 11, "skills": ["ISO 27001", "risk analysis EBIOS RM", "GDPR"], "certifications": ["ISO 27001 Lead Implementer", "CISSP"], "languages": ["fr"]},
+    {"id": "CV-07", "name": "Amandine Cordelier (fictional)", "role": "accessibility expert", "years": 7, "skills": ["RGAA 4.1", "WCAG 2.2", "UX"], "certifications": [], "languages": ["fr"]},
+    {"id": "CV-08", "name": "Yanis Belfort (fictional)", "role": "full-stack developer", "years": 6, "skills": ["React", "Symfony", "PostgreSQL"], "certifications": [], "languages": ["fr"]},
+    {"id": "CV-09", "name": "Clara Mendès-Roux (fictional)", "role": "data scientist", "years": 5, "skills": ["Python", "scikit-learn", "MLOps"], "certifications": ["Azure AI Engineer Associate"], "languages": ["fr", "en"]},
+    {"id": "CV-10", "name": "Pierre-Alain Sorbier (fictional)", "role": "project manager (AMOA)", "years": 15, "skills": ["AMOA", "change management", "public sector"], "certifications": ["PRINCE2 Practitioner"], "languages": ["fr"]},
+    {"id": "CV-11", "name": "Léa Dumontel (fictional)", "role": "scrum master", "years": 8, "skills": ["Scrum", "Jira", "agile at scale"], "certifications": ["PSM II"], "languages": ["fr", "en"]},
+    {"id": "CV-12", "name": "Marc Oyelaran (fictional)", "role": "mobile developer", "years": 7, "skills": ["Kotlin", "Swift", "Flutter"], "certifications": [], "languages": ["fr", "en"]}
+  ],
+  "methods": [
+    {"id": "MET-001", "topic": "application maintenance", "summary": "ITIL-based TMA with a reversibility plan, three-month knowledge transfer, monthly steering committee and SLA reporting."},
+    {"id": "MET-002", "topic": "agile delivery", "summary": "Scrum with two-week sprints, a product owner on the client side and a definition of done that includes accessibility and security checks."},
+    {"id": "MET-003", "topic": "security", "summary": "Delivery under the ISO/IEC 27001 management system: risk analysis (EBIOS RM), secure development guidelines, annual penetration test performed by an external PASSI-qualified partner."},
+    {"id": "MET-004", "topic": "personal data", "summary": "Internal DPO, processing records per project, data processing agreement under GDPR Article 28 signed with every public client."},
+    {"id": "MET-005", "topic": "accessibility", "summary": "RGAA 4.1 audits and remediation by an in-house expert; accessibility statement drafted for the client."},
+    {"id": "MET-006", "topic": "sustainability", "summary": "Responsible digital charter and eco-design guidelines (RGESN); no ISO 14001 certification."},
+    {"id": "MET-007", "topic": "hosting", "summary": "Hosting is always subcontracted to a sovereign cloud partner named in the bid; Quorvelle Conseil operates no data centre."}
+  ]
+}

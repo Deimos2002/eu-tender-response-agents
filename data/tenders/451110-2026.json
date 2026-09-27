@@ -1,0 +1,40 @@
+{
+  "id": "451110-2026",
+  "language": "FRA",
+  "title": "Prestation d’assistance aux opérations d’évolution d’architecture liées aux intégrations logicielles et à l’obsolescence du parc informatique",
+  "buyer": "CEA Centre de Cadarache",
+  "buyer_country": "FRA",
+  "description": "Ce marché est prévu pour une durée ferme de 12 mois avec quatre options supplémentaires de 12 mois chacune. il est composé d'une part forfaitaire et d'une part estimative. Il est attendu dans le cadre de ce marché une prestation d'assistance aux opération d'évolution des architectures liées aux intégrations logicielles et à l'obsolescence du parc informatique du CEA de Cadarache. Dans ce cadre il sera demandé au titulaire de réaliser les actions suivantes : - Intégration de nouvelles applications / plugins dans le SI ou de leurs mises à jour. - Intégration de nouveaux développements logiciels dans le SI ou leurs misses à jour - Consolidation documentaire - Gestion de l'obsolescence des matériels et logiciels des infrastructures serveurs - Réalisation de cahiers de recettes techniques - Réalisations d'études - Qualification logicielles Le Marché est un marché sensible au sens de l'arrêté du 9 août 2021 portant approbation de l'instruction générale interministérielle n°13100 sur la protection du secret de la défense nationale. Pour plus d'information, veuillez vous référer au DCE disponible à l'adresse suivante : https://www.marches-publics.gouv.fr avec la référence définie à la section 2.1 (identifiant interne)",
+  "lot_title": "Prestation d'assistance aux opérations d’évolution d’architecture liées aux intégrations logicielles, et à l’obsolescence du parc informatique",
+  "lot_description": "Pour davantage d'informations, veuillez vous référer au dossier de consultation accessible sur https://www.marchespublics.gouv.fr avec la référence définie à la section 2.1 (identifiant interne).",
+  "deadline": "2026-09-08",
+  "duration": {
+    "value": 60,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72610000",
+  "cpv": [
+    "72610000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 30.0,
+      "description": "Organisation mise en œuvre et qualité des profils proposés (30%)"
+    },
+    {
+      "type": "quality",
+      "points": 20.0,
+      "description": "- Méthodologie proposée, description des livrables et prise en compte des enjeux RSE (20%)"
+    },
+    {
+      "type": "price",
+      "points": 50.0,
+      "description": "- Prix calculé sur la base du montant total forfaitaire (total tranche ferme + options) et du montant du scénario de la part estimative (50%)"
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/451110-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

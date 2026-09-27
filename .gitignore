@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.egg-info/
+.cache/
+.env
+data/raw/
+data/private/
+.pytest_cache/
+data/outbox/
+results/*/
+!results/README.md
+data/specs/*__*

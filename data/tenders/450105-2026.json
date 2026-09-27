@@ -1,0 +1,45 @@
+{
+  "id": "450105-2026",
+  "language": "FRA",
+  "title": "Tierce Maintenance Applicative des applications Sign&Go Global SSO, Portail d'Accès au Système d'Information, Card Management System et Vaultwarden de la Métropole de Lyon",
+  "buyer": "Métropole de Lyon",
+  "buyer_country": "FRA",
+  "description": "Le marché comprend la tierce maintenance applicative des applications Sign&Go Global SSO, Portail d'Accès au Système d'Information, Card Management System et Vaultwarden de la Métropole de Lyon. Les prestations comprennent : - Le support N+2 et N+3 aux utilisateurs, aux administrateurs fonctionnels et techniques, - La maintenance préventive et corrective, - La maintenance évolutive, - Des projets d'évolutions majeures, - Des prestations complémentaires (expertise, formation, …)",
+  "lot_title": "Tierce Maintenance Applicative des applications Sign&Go Global SSO, Portail d'Accès au Système d'Information, Card Management System et Vaultwarden de la Métropole de Lyon",
+  "lot_description": "Le marché comprend la tierce maintenance applicative des applications Sign&Go Global SSO, Portail d'Accès au Système d'Information, Card Management System et Vaultwarden de la Métropole de Lyon. Les prestations comprennent : - Le support N+2 et N+3 aux utilisateurs, aux administrateurs fonctionnels et techniques, - La maintenance préventive et corrective, - La maintenance évolutive, - Des projets d'évolutions majeures, - Des prestations complémentaires (expertise, formation, …)",
+  "deadline": "2026-07-30",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 600000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72212000",
+  "cpv": [
+    "72212000",
+    "72250000",
+    "72267000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 60.0,
+      "description": "Pertinence de l'organisation et de la méthodologie de travail proposées"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Performance en matière de protection de l'environnement"
+    },
+    {
+      "type": "price",
+      "points": 30.0,
+      "description": "Prix des prestations"
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/450105-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

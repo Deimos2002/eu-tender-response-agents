@@ -1,0 +1,36 @@
+{
+  "id": "452622-2026",
+  "language": "ENG",
+  "title": "Real-time Graphics Controller",
+  "buyer": "Yleisradio Oy",
+  "buyer_country": "FIN",
+  "description": "The object of the procurement is Real-time Graphics Controller for Yleisradio Oy (\"Yle\"). Yle is looking for a supplier for a graphics controller. The solution should be ready-made and already in production use. The controller will play a crucial role in Yle’s real-time graphics production. The goal is to have one UI to unify workflow between different graphic renderer systems. Yle’s production environment consists of 12 tv studios, 3 OB trucks, 1 playout centre and roughly dozen cloud live streaming units. Content filling clients have around 1300 installations. Concurrent users are around 100. The scope of initial installation is to install controller setup to one local studio in Pasila, Helsinki. This studio is using SPX html graphics, Caspar CG and Unreal as graphic renderers. After a successful production transition Yle is looking for expand this controller solution as a company wide solution. The object of the procurement is described in detail in the Invitation to Tender and its annexes: 1. Subject of the procurement 2. Requirements 3. Pricing Sheet 4. Yle Data Protection Agreement 5. Agreement draft 5.1 JIT 2025 – Special Terms and Conditions for Services 5.2 JIT 2025 – Special Terms and Conditions for Consulting Services 5.3 JIT 2025 – General Terms and Conditions 6. Evaluation of Tenders Yle will choose one (1) supplier as a contracting party as a result of this bidding competition. The Agreement includes two extension options described in the tender documents.",
+  "lot_title": "Real-time Graphics Controller",
+  "lot_description": "The object of the procurement is Real-time Graphics Controller for Yleisradio Oy (\"Yle\"). Yle is looking for a supplier for a graphics controller. The solution should be ready-made and already in production use. The controller will play a crucial role in Yle’s real-time graphics production. The goal is to have one UI to unify workflow between different graphic renderer systems. Yle’s production environment consists of 12 tv studios, 3 OB trucks, 1 playout centre and roughly dozen cloud live streaming units. Content filling clients have around 1300 installations. Concurrent users are around 100. The scope of initial installation is to install controller setup to one local studio in Pasila, Helsinki. This studio is using SPX html graphics, Caspar CG and Unreal as graphic renderers. After a successful production transition Yle is looking for expand this controller solution as a company wide solution. The object of the procurement is described in detail in the Invitation to Tender and its annexes: 1. Subject of the procurement 2. Requirements 3. Pricing Sheet 4. Yle Data Protection Agreement 5. Agreement draft 5.1 JIT 2025 – Special Terms and Conditions for Services 5.2 JIT 2025 – Special Terms and Conditions for Consulting Services 5.3 JIT 2025 – General Terms and Conditions 6. Evaluation of Tenders Yle will choose one (1) supplier as a contracting party as a result of this bidding competition. The Agreement includes two extension options described in the tender documents.",
+  "deadline": "2026-08-24",
+  "duration": {
+    "value": 12,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "48900000",
+  "cpv": [
+    "48900000",
+    "72600000"
+  ],
+  "award_criteria": [
+    {
+      "type": "price",
+      "points": 65.0,
+      "description": "See appendix 6."
+    },
+    {
+      "type": "quality",
+      "points": 99.0,
+      "description": "See appendix 6."
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/en/notice/-/detail/452622-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

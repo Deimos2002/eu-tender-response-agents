@@ -1,0 +1,51 @@
+{
+  "id": "475583-2026",
+  "language": "FRA",
+  "title": "Cyber Threat Intelligence Platform",
+  "buyer": "Smals",
+  "buyer_country": "BEL",
+  "description": "L'objet de ce marché est la fourniture d’un outil de cybersécurité qui aide les entreprises à détecter, analyser et prévenir les cybermenaces.Le marché vise l’achat de licences, de la maintenance et du support liés ainsi que des services d’expertise technique et de formation.",
+  "lot_title": "Cyber Threat Intelligence Platform",
+  "lot_description": "L'objet de ce marché est la fourniture d’un outil de cybersécurité qui aide les entreprises à détecter, analyser et prévenir les cybermenaces. Le marché vise l’achat de licences, de la maintenance et du support liés ainsi que des services d’expertise technique et de formation.",
+  "deadline": "2026-09-30",
+  "duration": {
+    "value": 4,
+    "unit": "YEAR"
+  },
+  "estimated_value": null,
+  "cpv_main": "48730000",
+  "cpv": [
+    "48730000",
+    "72212730"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Les conditions administratives et commerciales"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Les services proposés et leur qualité"
+    },
+    {
+      "type": "quality",
+      "points": 30.0,
+      "description": "Le degré d'adéquation avec les besoins des niveaux 1 et 2"
+    },
+    {
+      "type": "price",
+      "points": 35.0,
+      "description": "Les prix"
+    },
+    {
+      "type": "price",
+      "points": 15.0,
+      "description": "Le potentiel de la politique de prix et les options autorisées"
+    }
+  ],
+  "publication_date": "2026-07-09",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/475583-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

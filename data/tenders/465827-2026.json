@@ -1,0 +1,45 @@
+{
+  "id": "465827-2026",
+  "language": "ENG",
+  "title": "Procurement of IT operations and security.",
+  "buyer": "Direktoratet for mineralforvaltning med Bergmesteren for Svalbard",
+  "buyer_country": "NOR",
+  "description": "The Norwegian Mineral Management Agency with the Bergmesteren for Svalbard shall procure a comprehensive, secure and future-specific IT operation delivery. The delivery includes i.a. user support, service desk, identity and access management, clients, mobile devices, networks, server and cloud services, application operation, backup, recovery, security monitoring, event management, documentation, reporting, establishment, transition, interaction with third-party suppliers and exit assistance.",
+  "lot_title": "Procurement of IT operations and security.",
+  "lot_description": "The Norwegian Mineral Management Agency with the Bergmesteren for Svalbard shall procure a comprehensive, secure and future-specific IT operation delivery. The delivery includes i.a. user support, service desk, identity and access management, clients, mobile devices, networks, server and cloud services, application operation, backup, recovery, security monitoring, event management, documentation, reporting, establishment, transition, interaction with third-party suppliers and exit assistance.",
+  "deadline": "2026-08-27",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 55000000.0,
+    "currency": "NOK"
+  },
+  "cpv_main": "72000000",
+  "cpv": [
+    "72000000",
+    "72500000",
+    "72700000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 35.0,
+      "description": "Assessed on the basis of the tenderer ́s response in Annex 1.1, Annex 2, Annex 4 and Annex 6. An understanding of the assignment and the entirety of the delivery, operation model, interaction, documentation, establishment, transition, implementation ability, service quality, maturity in support and operation processes, future robustness, standardisation, life cycle management, automation, cost management, resource optimisation and managed use of KI will be assessed."
+    },
+    {
+      "type": "quality",
+      "points": 30.0,
+      "description": "Assessed on the basis of the tenderer's response in Annex 1.1, Annex 2, Annex 5, Annex 6, Annex 10 and Annex 11. Identity and access management, logging, monitoring, event management, vulnerability management, backup, recovery, stand-by, data processing, sub-provider management, privacy, audit support, documentation and compliance mechanisms are being assessed."
+    },
+    {
+      "type": "price",
+      "points": 35.0,
+      "description": "Assessed on the basis of the total evaluation price in the completed Annex 7/price form. The total evaluation price is calculated as an establishment cost + compulsory monthly basis × 48 months + the evaluation sum of hourly rates + the evaluation sum options. The evaluation volumes for hourly rates and options are fixed to make the tenders comparable and do not involve any purchasing obligation for the Contracting Authority."
+    }
+  ],
+  "publication_date": "2026-07-07",
+  "source_url": "https://ted.europa.eu/en/notice/-/detail/465827-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

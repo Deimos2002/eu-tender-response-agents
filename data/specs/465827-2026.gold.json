@@ -1,0 +1,166 @@
+{
+  "tender_id": "465827-2026",
+  "language": "ENG",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Assessed on the basis of the tenderer ́s response in Annex 1.1, Annex 2, Annex 4 and Annex 6. An understanding of the assignment and the entirety of the delivery, operation model, interaction, documentation, establishment, transition, implementation ability, service quality, maturity in support and operation processes, future robustness, standardisation, life cycle management, automation, cost management, resource optimisation and managed use of KI will be assessed.",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 35.0,
+      "criterion_type": "quality",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Assessed on the basis of the tenderer's response in Annex 1.1, Annex 2, Annex 5, Annex 6, Annex 10 and Annex 11. Identity and access management, logging, monitoring, event management, vulnerability management, backup, recovery, stand-by, data processing, sub-provider management, privacy, audit support, documentation and compliance mechanisms are being assessed.",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 30.0,
+      "criterion_type": "quality",
+      "id": "R-02"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Assessed on the basis of the total evaluation price in the completed Annex 7/price form. The total evaluation price is calculated as an establishment cost + compulsory monthly basis × 48 months + the evaluation sum of hourly rates + the evaluation sum options. The evaluation volumes for hourly rates and options are fixed to make the tenders comparable and do not involve any purchasing obligation for the Contracting Authority.",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 35.0,
+      "criterion_type": "price",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "The contractor presents a reversibility and knowledge-transfer plan for the end of the contract.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "The contractor acts as a processor under GDPR Article 28: data processing agreement, records of processing and a designated DPO.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "The tenderer presents at least three references for similar services delivered since 2022.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-002",
+        "REF-006",
+        "REF-007",
+        "REF-008",
+        "REF-009",
+        "REF-014",
+        "REF-015"
+      ],
+      "bank_key": "references",
+      "id": "R-06"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "The tenderer names a service lead with at least ten years of experience and attaches the team's CVs.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-07"
+    },
+    {
+      "source": "bank",
+      "category": "technical",
+      "mandatory": true,
+      "text": "The tenderer demonstrates expertise in identity and access management (SSO, identity federation).",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-007",
+        "REF-009",
+        "CV-03"
+      ],
+      "bank_key": "iam",
+      "id": "R-08"
+    },
+    {
+      "source": "bank",
+      "category": "certification",
+      "mandatory": true,
+      "text": "The contractor holds an ISO/IEC 27001 certified information security management system covering the services.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CERT-ISO27001"
+      ],
+      "bank_key": "iso27001",
+      "id": "R-09"
+    },
+    {
+      "source": "bank",
+      "category": "technical",
+      "mandatory": true,
+      "text": "The tenderer demonstrates experience migrating applications to public cloud.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-006",
+        "REF-014",
+        "CV-04"
+      ],
+      "bank_key": "cloud",
+      "id": "R-10"
+    },
+    {
+      "source": "bank",
+      "category": "security",
+      "mandatory": true,
+      "text": "The contractor provides 24/7 security monitoring from its own security operations centre (SOC).",
+      "expected": "gap",
+      "evidence_ids": [],
+      "gap_ids": [
+        "FIRM.does_not_do"
+      ],
+      "bank_key": "gap_soc",
+      "id": "R-11"
+    }
+  ],
+  "constraints": {
+    "language": "ENG",
+    "max_pages": 20,
+    "required_sections": [
+      "Understanding of the requirement",
+      "Methodology",
+      "Proposed team",
+      "References",
+      "Security and data protection",
+      "Timeline",
+      "Compliance matrix"
+    ],
+    "deadline": "2026-08-27",
+    "duration": {
+      "value": 48,
+      "unit": "MONTH"
+    }
+  }
+}

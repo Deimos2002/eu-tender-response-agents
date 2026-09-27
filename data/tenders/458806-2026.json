@@ -1,0 +1,39 @@
+{
+  "id": "458806-2026",
+  "language": "ENG",
+  "title": "IT Consultancy Services for EMSA’s horizontal Access Management System",
+  "buyer": "European Maritime Safety Agency",
+  "buyer_country": "PRT",
+  "description": "IT consultancy services for Development, Maintenance, Enhancement and Support to Operations of the Access Management System",
+  "lot_title": "IT Consultancy Services for EMSA’s horizontal Access Management System",
+  "lot_description": "IT consultancy services for Development, Maintenance, Enhancement and Support to Operations of the Access Management System",
+  "deadline": "2026-07-08",
+  "duration": {
+    "value": 72,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 350000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72000000",
+  "cpv": [
+    "72000000",
+    "72200000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 70.0,
+      "description": "Please consult the procurement documents."
+    },
+    {
+      "type": "price",
+      "points": 30.0,
+      "description": "Please consult the procurement documents."
+    }
+  ],
+  "publication_date": "2026-07-03",
+  "source_url": "https://ted.europa.eu/en/notice/-/detail/458806-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

@@ -1,0 +1,154 @@
+{
+  "tender_id": "475583-2026",
+  "language": "FRA",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Les conditions administratives et commerciales",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 10.0,
+      "criterion_type": "quality",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Les services proposés et leur qualité",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 10.0,
+      "criterion_type": "quality",
+      "id": "R-02"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Le degré d'adéquation avec les besoins des niveaux 1 et 2",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 30.0,
+      "criterion_type": "quality",
+      "id": "R-03"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Les prix",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 35.0,
+      "criterion_type": "price",
+      "id": "R-04"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Le potentiel de la politique de prix et les options autorisées",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 15.0,
+      "criterion_type": "price",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "Le titulaire présente un plan de réversibilité et de transfert de connaissances en fin de marché.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-06"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "Le titulaire agit en tant que sous-traitant au sens de l'article 28 du RGPD : accord de sous-traitance, registre des traitements et DPO désigné.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-07"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "Le candidat présente au moins trois références de prestations similaires réalisées depuis 2022.",
+      "expected": "judgement",
+      "evidence_ids": [
+        "REF-008"
+      ],
+      "bank_key": "references",
+      "id": "R-08"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "Le candidat désigne un responsable de prestation justifiant d'au moins dix ans d'expérience et joint les CV de l'équipe.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-09"
+    },
+    {
+      "source": "bank",
+      "category": "certification",
+      "mandatory": true,
+      "text": "Le titulaire justifie d'un système de management de la sécurité de l'information certifié ISO/IEC 27001 couvrant les prestations.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CERT-ISO27001"
+      ],
+      "bank_key": "iso27001",
+      "id": "R-10"
+    },
+    {
+      "source": "bank",
+      "category": "security",
+      "mandatory": true,
+      "text": "Le titulaire assure une supervision de sécurité 24h/24 et 7j/7 par un SOC interne.",
+      "expected": "gap",
+      "evidence_ids": [],
+      "gap_ids": [
+        "FIRM.does_not_do"
+      ],
+      "bank_key": "gap_soc",
+      "id": "R-11"
+    }
+  ],
+  "constraints": {
+    "language": "FRA",
+    "max_pages": 20,
+    "required_sections": [
+      "Compréhension du besoin",
+      "Méthodologie",
+      "Équipe proposée",
+      "Références",
+      "Sécurité et protection des données",
+      "Planning",
+      "Matrice de conformité"
+    ],
+    "deadline": "2026-09-30",
+    "duration": {
+      "value": 4,
+      "unit": "YEAR"
+    }
+  }
+}

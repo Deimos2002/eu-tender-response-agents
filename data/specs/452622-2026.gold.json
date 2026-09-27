@@ -1,0 +1,85 @@
+{
+  "tender_id": "452622-2026",
+  "language": "ENG",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "See appendix 6.",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 65.0,
+      "criterion_type": "price",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "See appendix 6.",
+      "expected": "judgement",
+      "evidence_ids": [],
+      "points": 99.0,
+      "criterion_type": "quality",
+      "id": "R-02"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "The contractor acts as a processor under GDPR Article 28: data processing agreement, records of processing and a designated DPO.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "The tenderer presents at least three references for similar services delivered since 2022.",
+      "expected": "judgement",
+      "evidence_ids": [
+        "REF-003",
+        "REF-013"
+      ],
+      "bank_key": "references",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "The tenderer names a service lead with at least ten years of experience and attaches the team's CVs.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-05"
+    }
+  ],
+  "constraints": {
+    "language": "ENG",
+    "max_pages": 20,
+    "required_sections": [
+      "Understanding of the requirement",
+      "Methodology",
+      "Proposed team",
+      "References",
+      "Security and data protection",
+      "Timeline",
+      "Compliance matrix"
+    ],
+    "deadline": "2026-08-24",
+    "duration": {
+      "value": 12,
+      "unit": "MONTH"
+    }
+  }
+}

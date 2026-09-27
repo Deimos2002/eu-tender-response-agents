@@ -1,0 +1,35 @@
+{
+  "id": "471303-2026",
+  "language": "FRA",
+  "title": "Modélisation numérique assistée par ordinateur",
+  "buyer": "Université de Liège",
+  "buyer_country": "BEL",
+  "description": "Le Centre Spatial de Liège souhaite lancer un appel de marché afin de sous-traiter certaines activités modélisation numérique à partir du 01/02/2027 et pour une durée de 2 ans, reconductible une fois 2 ans. Le présent marché a pour objet la réalisation de travaux de modélisation numérique en support des projets du CSL. Ces interventions couvriront typiquement les domaines suivants : • Modélisation mécanique : design préliminaire et analyse de structures (analyses modales, statiques, de stabilité, réponses dynamiques aux excitations sinusoïdales, aléatoires et aux chocs) ; • Modélisation thermomécanique (par éléments finis) afin de vérifier le niveau des contraintes et des déformations sous l’influence de la température ; • Réduction de modèles par condensation (Craig-Bampton) ; • Les modélisations seront réalisées à l’aide du logiciel SAMCEF ou NASTRAN. Cependant, les modèles à transmettre aux clients du CSL devront être exportés sous NASTRAN ; • Les interactions techniques (définition des calculs et discussion des résultats) avec les ingénieurs de CSL se feront au CSL, pour cela le prestataire se rendra au CSL avec sa station de travail et sa licence propre ; Les prestations de maillage et de calcul ne nécessitant pas d’interactions avec CSL, pourront se faire sur le site du prestataire de façon à bénéficier de ressources informatiques plus adéquates. Durée : Le marché porte sur une durée de 24 mois reconductible une fois 24 mois.",
+  "lot_title": "Modélisation numérique assistée par ordinateur",
+  "lot_description": "Le Centre Spatial de Liège souhaite lancer un appel de marché afin de sous-traiter certaines activités modélisation numérique à partir du 01/02/2027 et pour une durée de 2 ans, reconductible une fois 2 ans. Le présent marché a pour objet la réalisation de travaux de modélisation numérique en support des projets du CSL. Ces interventions couvriront typiquement les domaines suivants : • Modélisation mécanique : design préliminaire et analyse de structures (analyses modales, statiques, de stabilité, réponses dynamiques aux excitations sinusoïdales, aléatoires et aux chocs) ; • Modélisation thermomécanique (par éléments finis) afin de vérifier le niveau des contraintes et des déformations sous l’influence de la température ; • Réduction de modèles par condensation (Craig-Bampton) ; • Les modélisations seront réalisées à l’aide du logiciel SAMCEF ou NASTRAN. Cependant, les modèles à transmettre aux clients du CSL devront être exportés sous NASTRAN ; • Les interactions techniques (définition des calculs et discussion des résultats) avec les ingénieurs de CSL se feront au CSL, pour cela le prestataire se rendra au CSL avec sa station de travail et sa licence propre ; Les prestations de maillage et de calcul ne nécessitant pas d’interactions avec CSL, pourront se faire sur le site du prestataire de façon à bénéficier de ressources informatiques plus adéquates. Durée : Le marché porte sur une durée de 24 mois reconductible une fois 24 mois.",
+  "deadline": "2026-09-15",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72242000",
+  "cpv": [
+    "72242000"
+  ],
+  "award_criteria": [
+    {
+      "type": "cost",
+      "points": 60.0,
+      "description": "Critère économique"
+    },
+    {
+      "type": "quality",
+      "points": 40.0,
+      "description": "Critère de délai d'intervention"
+    }
+  ],
+  "publication_date": "2026-07-08",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/471303-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

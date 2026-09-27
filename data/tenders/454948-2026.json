@@ -1,0 +1,38 @@
+{
+  "id": "454948-2026",
+  "language": "FRA",
+  "title": "Prestations de services d'infogérance du système d'information du Centre Pompidou",
+  "buyer": "CENTRE POMPIDOU",
+  "buyer_country": "FRA",
+  "description": "Prestations de services d'infogérance du système d'information du Centre Pompidou",
+  "lot_title": "Prestations de services d'infogérance du système d'information du Centre Pompidou",
+  "lot_description": "Prestations de services d'infogérance du système d'information du Centre Pompidou",
+  "deadline": "2026-07-16",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72000000",
+  "cpv": [
+    "72000000",
+    "72253000",
+    "72513000",
+    "72514000"
+  ],
+  "award_criteria": [
+    {
+      "type": "price",
+      "points": 40.0,
+      "description": "Prix"
+    },
+    {
+      "type": "quality",
+      "points": 60.0,
+      "description": "Valeur technique"
+    }
+  ],
+  "publication_date": "2026-07-02",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/454948-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

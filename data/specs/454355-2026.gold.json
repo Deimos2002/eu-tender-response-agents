@@ -1,0 +1,170 @@
+{
+  "tender_id": "454355-2026",
+  "language": "FRA",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Qualité technique",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 60.0,
+      "criterion_type": "quality",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Prix",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 40.0,
+      "criterion_type": "price",
+      "id": "R-02"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "Le titulaire présente un plan de réversibilité et de transfert de connaissances en fin de marché.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "Le titulaire agit en tant que sous-traitant au sens de l'article 28 du RGPD : accord de sous-traitance, registre des traitements et DPO désigné.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "Le candidat présente au moins trois références de prestations similaires réalisées depuis 2022.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-001",
+        "REF-002",
+        "REF-006",
+        "REF-007",
+        "REF-010",
+        "REF-011",
+        "REF-012",
+        "REF-015"
+      ],
+      "bank_key": "references",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "Le candidat désigne un responsable de prestation justifiant d'au moins dix ans d'expérience et joint les CV de l'équipe.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-06"
+    },
+    {
+      "source": "bank",
+      "category": "certification",
+      "mandatory": true,
+      "text": "Le titulaire justifie d'un système de management de la sécurité de l'information certifié ISO/IEC 27001 couvrant les prestations.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CERT-ISO27001"
+      ],
+      "bank_key": "iso27001",
+      "id": "R-07"
+    },
+    {
+      "source": "bank",
+      "category": "accessibility",
+      "mandatory": true,
+      "text": "Les développements respectent le RGAA 4.1 ; une déclaration d'accessibilité est fournie.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-005",
+        "CV-07",
+        "REF-002",
+        "REF-015"
+      ],
+      "bank_key": "rgaa",
+      "id": "R-08"
+    },
+    {
+      "source": "bank",
+      "category": "sustainability",
+      "mandatory": false,
+      "text": "Le candidat décrit ses engagements d'écoconception des services numériques (RGESN).",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-006"
+      ],
+      "bank_key": "ecodesign",
+      "id": "R-09"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "Le titulaire assure la maintenance corrective et évolutive (TMA) avec des niveaux de service contractuels et un reporting mensuel.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001",
+        "REF-001",
+        "REF-007",
+        "REF-012"
+      ],
+      "bank_key": "tma",
+      "id": "R-10"
+    },
+    {
+      "source": "bank",
+      "category": "certification",
+      "mandatory": true,
+      "text": "Le titulaire est certifié ISO/IEC 20000-1 pour la gestion des services informatiques.",
+      "expected": "gap",
+      "evidence_ids": [],
+      "gap_ids": [
+        "NOCERT-ISO20000"
+      ],
+      "bank_key": "gap_iso20000",
+      "id": "R-11"
+    }
+  ],
+  "constraints": {
+    "language": "FRA",
+    "max_pages": 20,
+    "required_sections": [
+      "Compréhension du besoin",
+      "Méthodologie",
+      "Équipe proposée",
+      "Références",
+      "Sécurité et protection des données",
+      "Planning",
+      "Matrice de conformité"
+    ],
+    "deadline": "2026-07-29",
+    "duration": {
+      "value": 48,
+      "unit": "MONTH"
+    }
+  }
+}

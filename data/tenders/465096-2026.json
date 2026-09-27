@@ -1,0 +1,42 @@
+{
+  "id": "465096-2026",
+  "language": "ENG",
+  "title": "LPID Solution and Related Services",
+  "buyer": "Patentti- ja rekisterihallitus",
+  "buyer_country": "FIN",
+  "description": "The Patent and Registration Office (hereafter \"PRH\") is procuring a robust and secure infrastructure for the management of Legal Person Identification Data (LPID) within the Finnish national identity ecosystem. To ensure the integrity, traceability, and regulatory compliance of these identifiers, the Client requires specialized software components, tools, and processes that enable efficient LPID lifecycle management. It should be noted that PRH will not be responsible for the technical implementation or deployment of the EUDI Business Wallet. The responsibility for bringing these business wallets to the market lies with private-sector providers and service implementers, whose involvement is essential to ensure the availability and scalability of the ecosystem. Solution provided by this procurement process should not prevent any EUDI legal person wallet provider from offering their wallet service in cooperation with the LPID service of PRH. An LPID provided by PRH will be required in an EUDI Business Wallet to qualify it as a part of the EUDI trust network. The objective of this procurement is to acquire a comprehensive, end-to-end solution for LPID Lifecycle Management. The scope of the procurement is described in more detail in the Annexes, particularly in Annex 1 Subject Matter. The contracting authority will select one (1) tenderer.",
+  "lot_title": "LPID Solution and Related Services",
+  "lot_description": "The Patent and Registration Office (hereafter \"PRH\") is procuring a robust and secure infrastructure for the management of Legal Person Identification Data (LPID) within the Finnish national identity ecosystem. To ensure the integrity, traceability, and regulatory compliance of these identifiers, the Client requires specialized software components, tools, and processes that enable efficient LPID lifecycle management. It should be noted that PRH will not be responsible for the technical implementation or deployment of the EUDI Business Wallet. The responsibility for bringing these business wallets to the market lies with private-sector providers and service implementers, whose involvement is essential to ensure the availability and scalability of the ecosystem. Solution provided by this procurement process should not prevent any EUDI legal person wallet provider from offering their wallet service in cooperation with the LPID service of PRH. An LPID provided by PRH will be required in an EUDI Business Wallet to qualify it as a part of the EUDI trust network. The objective of this procurement is to acquire a comprehensive, end-to-end solution for LPID Lifecycle Management. The scope of the procurement is described in more detail in the Annexes, particularly in Annex 1 Subject Matter. The contracting authority will select one (1) tenderer.",
+  "deadline": "2026-08-25",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72000000",
+  "cpv": [
+    "35123000",
+    "48000000",
+    "72000000"
+  ],
+  "award_criteria": [
+    {
+      "type": "price",
+      "points": 60.0,
+      "description": "See section “Ground for decision” in the call for tenders."
+    },
+    {
+      "type": "quality",
+      "points": 20.0,
+      "description": "See section “Ground for decision” in the call for tenders."
+    },
+    {
+      "type": "quality",
+      "points": 20.0,
+      "description": "See section “Ground for decision” in the call for tenders."
+    }
+  ],
+  "publication_date": "2026-07-07",
+  "source_url": "https://ted.europa.eu/en/notice/-/detail/465096-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

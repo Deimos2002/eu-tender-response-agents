@@ -1,0 +1,140 @@
+{
+  "tender_id": "458806-2026",
+  "language": "ENG",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Please consult the procurement documents.",
+      "expected": "judgement",
+      "evidence_ids": [],
+      "points": 70.0,
+      "criterion_type": "quality",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Please consult the procurement documents.",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 30.0,
+      "criterion_type": "price",
+      "id": "R-02"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "The contractor presents a reversibility and knowledge-transfer plan for the end of the contract.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "The contractor acts as a processor under GDPR Article 28: data processing agreement, records of processing and a designated DPO.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "The tenderer presents at least three references for similar services delivered since 2022.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-002",
+        "REF-003",
+        "REF-007",
+        "REF-009",
+        "REF-013",
+        "REF-015"
+      ],
+      "bank_key": "references",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "The tenderer names a service lead with at least ten years of experience and attaches the team's CVs.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-06"
+    },
+    {
+      "source": "bank",
+      "category": "technical",
+      "mandatory": true,
+      "text": "The tenderer demonstrates expertise in identity and access management (SSO, identity federation).",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-007",
+        "REF-009",
+        "CV-03"
+      ],
+      "bank_key": "iam",
+      "id": "R-07"
+    },
+    {
+      "source": "bank",
+      "category": "certification",
+      "mandatory": true,
+      "text": "The contractor holds an ISO/IEC 27001 certified information security management system covering the services.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CERT-ISO27001"
+      ],
+      "bank_key": "iso27001",
+      "id": "R-08"
+    },
+    {
+      "source": "bank",
+      "category": "certification",
+      "mandatory": true,
+      "text": "The contractor is certified ISO 14001 (environmental management).",
+      "expected": "gap",
+      "evidence_ids": [],
+      "gap_ids": [
+        "NOCERT-ISO14001"
+      ],
+      "bank_key": "gap_iso14001",
+      "id": "R-09"
+    }
+  ],
+  "constraints": {
+    "language": "ENG",
+    "max_pages": 20,
+    "required_sections": [
+      "Understanding of the requirement",
+      "Methodology",
+      "Proposed team",
+      "References",
+      "Security and data protection",
+      "Timeline",
+      "Compliance matrix"
+    ],
+    "deadline": "2026-07-08",
+    "duration": {
+      "value": 72,
+      "unit": "MONTH"
+    }
+  }
+}

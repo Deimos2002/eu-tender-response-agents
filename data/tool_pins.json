@@ -1,0 +1,14 @@
+{
+ "compliance__ask": "b958f130ea21e69e3c8015aed029b17b0005ce8e3fc2be8ecbaec241f05cbc8a",
+ "firm_kb__firm_profile": "b08574630cbba1eda5bd2509db3f1c5d9c741b1c8811a89beabb981c77d21901",
+ "firm_kb__get_record": "8ea191d2cf7ca2c5ae9a8db1e86a793e361236da74efe61c2b76ce101898a9c0",
+ "firm_kb__list_certifications": "bd8f161b2cd75c3fc381fdf28d764bec190260e30678c0a0297be766033930e4",
+ "firm_kb__list_consultants": "6b8b4fdda912ecccab8994ee0772f28f84025fd78abdf46fc982975ff16ae6d3",
+ "firm_kb__list_methods": "4c1f4cd2c2cf0caf2e72f1cbe0704961548745849b6e8c0aed473d8119df2a26",
+ "firm_kb__list_references": "2b7260fdc22084cc3ada37b45d0e396fe2589f8af1a244e87e73690e5e3b95d4",
+ "firm_kb__search_consultants": "391d338c97c56f377cf4029f0aadd8e0769d3ff6f053644a05297f9096cf9c28",
+ "firm_kb__search_references": "3abd960ebf4eaf78abbbccf8b82cf45be755a4163abee9e918f5f8d44d5e5369",
+ "outbox__submit": "709e417fab2fdcd0f77d8a545bafef47f5f0e266bcc5586944be074b8335d953",
+ "tenders__get_specification": "c35732feaf9c1ed86fbe985fc6b48d610977802526aeda722f7676f86bd44fc5",
+ "tenders__list_tenders": "b6ffc099effb3aa8bd78c9f70971c147668df1411fa9d85282e88510e9d347f2"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "476811-2026",
+  "language": "FRA",
+  "title": "Mise à disposition d'une solution SaaS de gestion d'un Système d'Information Touristique et prestations associées",
+  "buyer": "Vendée Expansion - SEM",
+  "buyer_country": "FRA",
+  "description": "Le présent accord-cadre est passé selon une procédure d’appel d’offre ouvert en application des articles R. 2142-2, R. 2161-2 à R. 2161-5, R. 2162-2 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique.",
+  "lot_title": "Mise à disposition d'une solution SaaS de gestion d'un Système d'Information Touristique et prestations associées",
+  "lot_description": "Accord-cadre de technique de l'information et de la communication. Les prescriptions sont détaillées dans le Cahier des Clauses Techniques Particulières.",
+  "deadline": "2026-08-10",
+  "duration": {
+    "value": 12,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 0.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72500000",
+  "cpv": [
+    "72222300",
+    "72261000",
+    "72416000",
+    "72500000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 40.0,
+      "description": "Fonctionnalités de la solution proposée"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Moyens humains mobilisables pour la mise en œuvre de la solution proposée"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Méthodologie de mise en œuvre et d’accompagnement dans le déploiement de la solution proposée"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Procédures de prise en charge et de traitement des incidents et des demandes d’assistance technique"
+    },
+    {
+      "type": "price",
+      "points": 30.0,
+      "description": "Prix des prestations"
+    }
+  ],
+  "publication_date": "2026-07-10",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/476811-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

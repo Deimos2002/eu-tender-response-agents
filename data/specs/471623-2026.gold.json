@@ -1,0 +1,136 @@
+{
+  "tender_id": "471623-2026",
+  "language": "FRA",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Qualité de service proposée",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 50.0,
+      "criterion_type": "quality",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Performance environnementale",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 10.0,
+      "criterion_type": "quality",
+      "id": "R-02"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Prix",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 40.0,
+      "criterion_type": "price",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "Le titulaire présente un plan de réversibilité et de transfert de connaissances en fin de marché.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "Le titulaire agit en tant que sous-traitant au sens de l'article 28 du RGPD : accord de sous-traitance, registre des traitements et DPO désigné.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "Le candidat présente au moins trois références de prestations similaires réalisées depuis 2022.",
+      "expected": "judgement",
+      "evidence_ids": [
+        "REF-006",
+        "REF-014"
+      ],
+      "bank_key": "references",
+      "id": "R-06"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "Le candidat désigne un responsable de prestation justifiant d'au moins dix ans d'expérience et joint les CV de l'équipe.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-07"
+    },
+    {
+      "source": "bank",
+      "category": "technical",
+      "mandatory": true,
+      "text": "Le candidat démontre une expérience de migration d'applications vers le cloud public.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-006",
+        "REF-014",
+        "CV-04"
+      ],
+      "bank_key": "cloud",
+      "id": "R-08"
+    },
+    {
+      "source": "bank",
+      "category": "hosting",
+      "mandatory": true,
+      "text": "L'hébergement est assuré directement par le titulaire sur une infrastructure qualifiée SecNumCloud.",
+      "expected": "gap",
+      "evidence_ids": [],
+      "gap_ids": [
+        "NOCERT-SECNUMCLOUD",
+        "MET-007"
+      ],
+      "bank_key": "gap_secnumcloud",
+      "id": "R-09"
+    }
+  ],
+  "constraints": {
+    "language": "FRA",
+    "max_pages": 20,
+    "required_sections": [
+      "Compréhension du besoin",
+      "Méthodologie",
+      "Équipe proposée",
+      "Références",
+      "Sécurité et protection des données",
+      "Planning",
+      "Matrice de conformité"
+    ],
+    "deadline": "2026-08-18",
+    "duration": {
+      "value": 48,
+      "unit": "MONTH"
+    }
+  }
+}

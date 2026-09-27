@@ -1,0 +1,40 @@
+{
+  "id": "467048-2026",
+  "language": "FRA",
+  "title": "Fourniture d'un service de téléassistance auprès des personnes âgées vivant dans une résidence autonomie ou à domicile sur les 28 communes du territoire de Grand Lac",
+  "buyer": "CIAS de Grand Lac",
+  "buyer_country": "FRA",
+  "description": "Fourniture d'un service de téléassistance auprès des personnes âgées vivant dans une résidence autonomie ou à domicile sur les 28 communes du territoire de Grand Lac. Accord cadre mono attributaire de service à bons de commande avec seulement un maximum annuel : 245 000,00 euro(s) HT par an",
+  "lot_title": "Fourniture d'un service de téléassistance auprès des personnes âgées vivant dans une résidence autonomie ou à domicile sur les 28 communes du territoire de Grand Lac",
+  "lot_description": "Fourniture d'un service de téléassistance auprès des personnes âgées vivant dans une résidence autonomie ou à domicile sur les 28 communes du territoire de Grand Lac. Accord cadre mono attributaire de service à bons de commande avec seulement un maximum annuel : 245 000,00 euro(s) HT par an",
+  "deadline": "2026-08-20",
+  "duration": {
+    "value": 12,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 0.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72253000",
+  "cpv": [
+    "33196100",
+    "72253000",
+    "79711000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 50.0,
+      "description": "Valeur technique jugée sur le mémoire technique"
+    },
+    {
+      "type": "price",
+      "points": 50.0,
+      "description": "Prix"
+    }
+  ],
+  "publication_date": "2026-07-07",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/467048-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

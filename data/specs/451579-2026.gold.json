@@ -1,0 +1,94 @@
+{
+  "tender_id": "451579-2026",
+  "language": "FRA",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Qualité technique. Les sous-critères sont indiqués dans le règlement de la consultation",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 50.0,
+      "criterion_type": "quality",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Prix",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 50.0,
+      "criterion_type": "price",
+      "id": "R-02"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "Le titulaire présente un plan de réversibilité et de transfert de connaissances en fin de marché.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "Le titulaire agit en tant que sous-traitant au sens de l'article 28 du RGPD : accord de sous-traitance, registre des traitements et DPO désigné.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "Le candidat présente au moins trois références de prestations similaires réalisées depuis 2022.",
+      "expected": "judgement",
+      "evidence_ids": [],
+      "bank_key": "references",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "Le candidat désigne un responsable de prestation justifiant d'au moins dix ans d'expérience et joint les CV de l'équipe.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-06"
+    }
+  ],
+  "constraints": {
+    "language": "FRA",
+    "max_pages": 20,
+    "required_sections": [
+      "Compréhension du besoin",
+      "Méthodologie",
+      "Équipe proposée",
+      "Références",
+      "Sécurité et protection des données",
+      "Planning",
+      "Matrice de conformité"
+    ],
+    "deadline": "2026-08-24",
+    "duration": {
+      "value": 48,
+      "unit": "MONTH"
+    }
+  }
+}

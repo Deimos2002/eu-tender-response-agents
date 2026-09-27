@@ -1,0 +1,36 @@
+{
+  "id": "451579-2026",
+  "language": "FRA",
+  "title": "26A031 - Gestion du patrimoine infrastructures de communications électroniques",
+  "buyer": "Chartres Métropole (28)",
+  "buyer_country": "FRA",
+  "description": "26A031 - Gestion du patrimoine infrastructures de communications électroniques",
+  "lot_title": "Affaire 26A031 - Gestion du patrimoine infrastructures de communications électroniques",
+  "lot_description": "Affaire 26A031 - Gestion du patrimoine infrastructures de communications électroniques . les exogences et besoins sont indiqués dans le cahier des charges.",
+  "deadline": "2026-08-24",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72322000",
+  "cpv": [
+    "32523000",
+    "72322000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 50.0,
+      "description": "Qualité technique. Les sous-critères sont indiqués dans le règlement de la consultation"
+    },
+    {
+      "type": "price",
+      "points": 50.0,
+      "description": "Prix"
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/451579-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

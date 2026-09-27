@@ -1,0 +1,44 @@
+{
+  "id": "471797-2026",
+  "language": "ENG",
+  "title": "EO data products and Near-Real-Time services for HAB-Hub project",
+  "buyer": "European Commission, DG JRC - Joint Research Centre",
+  "buyer_country": "ITA",
+  "description": "The HAB-Hub Pilot project (PP33) aims to assess, improve and scale-up existing Earth Observation (EO) data, services and methodologies to detect in near-real-time (NRT) harmful algal bloom (HAB) events in European waters. The project will evaluate at a pan European scale the performance of methods and products already applied in existing operational EU services as well as phytoplankton bloom monitoring systems worldwide. The assessment will be carried out in retrospective mode, testing the capacity of alternative systems of successfully detecting and documenting past bloom events. The best performing system should then be evaluated during a NRT 6-month experiment. The purpose of this forthcoming contract is to provide the EO data needed for the assessment in retrospective mode, to develop a web-based platform (or dashboard) that will host the NRT experiment and will display and disseminate its results, and to run the NRT experiment with the appropriate data.",
+  "lot_title": "EO data products and Near-Real-Time services for HAB-Hub project",
+  "lot_description": "The HAB-Hub Pilot project (PP33) aims to assess, improve and scale-up existing Earth Observation (EO) data, services and methodologies to detect in near-real-time (NRT) harmful algal bloom (HAB) events in European waters. The project will evaluate at a pan European scale the performance of methods and products already applied in existing operational EU services as well as phytoplankton bloom monitoring systems worldwide. The assessment will be carried out in retrospective mode, testing the capacity of alternative systems of successfully detecting and documenting past bloom events. The best performing system should then be evaluated during a NRT 6-month experiment. The purpose of this forthcoming contract is to provide the EO data needed for the assessment in retrospective mode, to develop a web-based platform (or dashboard) that will host the NRT experiment and will display and disseminate its results, and to run the NRT experiment with the appropriate data.",
+  "deadline": "2026-08-20",
+  "duration": {
+    "value": 24,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 1000000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72300000",
+  "cpv": [
+    "72212222",
+    "72212326",
+    "72212328",
+    "72300000",
+    "72310000",
+    "72316000",
+    "72319000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 50.0,
+      "description": "Please consult the procurement documents."
+    },
+    {
+      "type": "price",
+      "points": 50.0,
+      "description": "Please consult the procurement documents."
+    }
+  ],
+  "publication_date": "2026-07-08",
+  "source_url": "https://ted.europa.eu/en/notice/-/detail/471797-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "454355-2026",
+  "language": "FRA",
+  "title": "26A032- Maintenance et évolutions des sites web de la Ville et de l’Agglomération de Chartres",
+  "buyer": "Chartres Métropole (28)",
+  "buyer_country": "FRA",
+  "description": "26A032- Maintenance et évolutions des sites web de la Ville et de l'Agglomération de Chartres",
+  "lot_title": "26A032 Maintenance et évolutions des sites web de la Ville et de l’Agglomération de Chartres",
+  "lot_description": "Les exigences et besoins sont indiqués dans le cahier des charges",
+  "deadline": "2026-07-29",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72413000",
+  "cpv": [
+    "50324100",
+    "72413000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 60.0,
+      "description": "Qualité technique"
+    },
+    {
+      "type": "price",
+      "points": 40.0,
+      "description": "Prix"
+    }
+  ],
+  "publication_date": "2026-07-02",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/454355-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "450700-2026",
+  "language": "FRA",
+  "title": "Acquisition, mise en œuvre, hébergement, assistance et maintenance d'un dispositif d'alerte des travailleurs isolés et de plan particulier de mise en sûreté (logiciels, matériels et prestations)-.",
+  "buyer": "Communauté Urbaine du Grand Reims",
+  "buyer_country": "FRA",
+  "description": "Le présent accord-cadre a pour objet l’acquisition, la mise en œuvre, l’hébergement, l’assistance et la maintenance d'un dispositif d'alerte des travailleurs isolés et de plan particulier de mise en sûreté (logiciels, matériels et prestations). Il est conclu sans montant minimum et avec un montant maximum fixé à 1 500 000 euros HT sur la durée totale de l’accord-cadre. Il comporte une partie forfaitaire et une partie exécutée par émission de bons de commandes.",
+  "lot_title": "Lot unique",
+  "lot_description": "Lot unique",
+  "deadline": "2026-09-03",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": null,
+  "cpv_main": "72260000",
+  "cpv": [
+    "72260000"
+  ],
+  "award_criteria": [
+    {
+      "type": "price",
+      "points": 50.0,
+      "description": "Prix"
+    },
+    {
+      "type": "quality",
+      "points": 40.0,
+      "description": "Valeur technique"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Engagements en matière environnementale et sociétale"
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/450700-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

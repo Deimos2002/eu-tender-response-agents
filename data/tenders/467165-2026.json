@@ -1,0 +1,45 @@
+{
+  "id": "467165-2026",
+  "language": "ENG",
+  "title": "My trade assistant for services and investment: procurement of information and data regarding the export of services and investment to third country markets",
+  "buyer": "European Commission, DG TRADE - Trade",
+  "buyer_country": "BEL",
+  "description": "Framework contract concerning the provision of information and data. The project concerns the further development of the 'Trade Assistant for Services and Investment', which is available on DG TRADE's Access2Markets portal. The objective is to provide information to EU companies that are interested in exporting services or investing outside the EU. The information mainly concerns the requirements that they need to meet to export services or invest outside the EU as well as the contact details of the responsible regulatory authorities. The information will need to be provided in a format compatible with the Access2Markets portal and presented in a user-­friendly manner. The project will consist of both research and data collection as well as IT-­related work.",
+  "lot_title": "My trade assistant for services and investment: procurement of information and data regarding the export of services and investment to third country markets",
+  "lot_description": "Framework contract concerning the provision of information and data. The project concerns the further development of the 'Trade Assistant for Services and Investment', which is available on DG TRADE's Access2Markets portal. The objective is to provide information to EU companies that are interested in exporting services or investing outside the EU. The information mainly concerns the requirements that they need to meet to export services or invest outside the EU as well as the contact details of the responsible regulatory authorities. The information will need to be provided in a format compatible with the Access2Markets portal and presented in a user-­friendly manner. The project will consist of both research and data collection as well as IT-­related work.",
+  "deadline": "2026-09-28",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 4000000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72319000",
+  "cpv": [
+    "71621000",
+    "72314000",
+    "72316000",
+    "72319000",
+    "72320000",
+    "73000000",
+    "73200000",
+    "79000000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 70.0,
+      "description": "Please consult the procurement documents."
+    },
+    {
+      "type": "price",
+      "points": 30.0,
+      "description": "Please consult the procurement documents."
+    }
+  ],
+  "publication_date": "2026-07-07",
+  "source_url": "https://ted.europa.eu/en/notice/-/detail/467165-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

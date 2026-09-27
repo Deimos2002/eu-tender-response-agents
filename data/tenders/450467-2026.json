@@ -1,0 +1,39 @@
+{
+  "id": "450467-2026",
+  "language": "FRA",
+  "title": "Prestation d'infogérance du système d'information",
+  "buyer": "GIE ORAS",
+  "buyer_country": "FRA",
+  "description": "Le présent marché a pour objet l'externalisation et l'infogérance du système d'information du GIE ORAS et des structures qui en relèvent, dans une logique de mutualisation des moyens, de continuité de service, de sécurité des environnements informatiques et d'adaptation progressive des outils aux besoins réels des utilisateurs",
+  "lot_title": "Prestation d'infogérance du système d'information",
+  "lot_description": "Le présent marché a pour objet l'externalisation et l'infogérance du système d'information du GIE ORAS et des structures qui en relèvent, dans une logique de mutualisation des moyens, de continuité de service, de sécurité des environnements informatiques et d'adaptation progressive des outils aux besoins réels des utilisateurs",
+  "deadline": "2026-07-31",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 600000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72500000",
+  "cpv": [
+    "72500000",
+    "72510000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 65.0,
+      "description": "La valeur technique est appréciée au regard du contenu du mémoire technique"
+    },
+    {
+      "type": "price",
+      "points": 35.0,
+      "description": "Le critère prix sera calculé en prenant compte le montant total Ht du Dqe (détail quantitatif estimatif) et de la Dpgf (décomposition des prix globale et forfaitaire)"
+    }
+  ],
+  "publication_date": "2026-07-01",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/450467-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

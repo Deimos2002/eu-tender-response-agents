@@ -1,0 +1,38 @@
+{
+  "id": "473926-2026",
+  "language": "FRA",
+  "title": "Relance accord-cadre à bons de commande et à marchés subséquents d'hébergement des sites et applications WEB du Département du Nord",
+  "buyer": "Conseil Départemental du Nord",
+  "buyer_country": "FRA",
+  "description": "La date de démarrage du 01/10/2026 est indicative - Montant minimum : sans montant minimum - Montant maximum par périodes : 500 000 euro(s) HT, 600 000 euro(s) TTC",
+  "lot_title": "Relance accord-cadre à bons de commande et à marchés subséquents d'hébergement des sites et applications WEB du Département du Nord",
+  "lot_description": "La date de démarrage du 01/10/2026 est indicative - Montant minimum : sans montant minimum - Montant maximum par périodes : 500 000 euro(s) HT, 600 000 euro(s) TTC",
+  "deadline": "2026-08-19",
+  "duration": {
+    "value": 24,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 1000000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72415000",
+  "cpv": [
+    "72415000"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 40.0,
+      "description": "Valeur Technique Et Environnementale"
+    },
+    {
+      "type": "price",
+      "points": 60.0,
+      "description": "Prix"
+    }
+  ],
+  "publication_date": "2026-07-09",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/473926-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "471623-2026",
+  "language": "FRA",
+  "title": "Prestations d'hébergement et supervision informatique du système central billettique relatif aux réseaux de transport routier interurbain de voyageurs Fluo Grand Est 54, 55 et 88",
+  "buyer": "Région Grand Est",
+  "buyer_country": "FRA",
+  "description": "Le marché objet de la présente consultation vise à fournir à la Région Grand Est un ensemble de prestations permettant d'accueillir et d'administrer l'hébergement du système billettique des réseaux de transport routier interurbain de voyageurs, Fluo Grand Est 54, 55 et 88 et à prendre en charge la reprise et le transfert des matériels actuels. Le système billettique se compose d'un serveur central et de plusieurs équipements embarqués (parc de 430 pupitres) ou fixes (13 Terminaux de poste de vente). A ce titre, le titulaire sera chargé de l'administration technique du système central notamment à travers la reprise et le transfert des matériels actuels avec garantie d'intégrité des données, de l'hébergement du site central et des prestations de suivi technique du fonctionnement de celui-ci (supervision, tâches d'exploitation, gestion des sauvegardes…). Le marché sera conclu sous la forme d'un accord-cadre mono-attributaire à bons de commandes, sans montant minimum et pour un montant maximum sur la durée totale de l'accord-cadre (reconductions comprises) de 360 000 euro(s) H.T",
+  "lot_title": "Prestations d'hébergement et supervision informatique du système central billettique relatif aux réseaux de transport routier interurbain de voyageurs Fluo Grand Est 54, 55 et 88",
+  "lot_description": "Le marché objet de la présente consultation vise à fournir à la Région Grand Est un ensemble de prestations permettant d'accueillir et d'administrer l'hébergement du système billettique des réseaux de transport routier interurbain de voyageurs, Fluo Grand Est 54, 55 et 88 et à prendre en charge la reprise et le transfert des matériels actuels. Le système billettique se compose d'un serveur central et de plusieurs équipements embarqués (parc de 430 pupitres) ou fixes (13 Terminaux de poste de vente). A ce titre, le titulaire sera chargé de l'administration technique du système central notamment à travers la reprise et le transfert des matériels actuels avec garantie d'intégrité des données, de l'hébergement du site central et des prestations de suivi technique du fonctionnement de celui-ci (supervision, tâches d'exploitation, gestion des sauvegardes…). Le marché sera conclu sous la forme d'un accord-cadre mono-attributaire à bons de commandes, sans montant minimum et pour un montant maximum sur la durée totale de l'accord-cadre (reconductions comprises) de 360 000 euro(s) H.T",
+  "deadline": "2026-08-18",
+  "duration": {
+    "value": 48,
+    "unit": "MONTH"
+  },
+  "estimated_value": {
+    "amount": 200000.0,
+    "currency": "EUR"
+  },
+  "cpv_main": "72510000",
+  "cpv": [
+    "72510000",
+    "72514300"
+  ],
+  "award_criteria": [
+    {
+      "type": "quality",
+      "points": 50.0,
+      "description": "Qualité de service proposée"
+    },
+    {
+      "type": "quality",
+      "points": 10.0,
+      "description": "Performance environnementale"
+    },
+    {
+      "type": "price",
+      "points": 40.0,
+      "description": "Prix"
+    }
+  ],
+  "publication_date": "2026-07-08",
+  "source_url": "https://ted.europa.eu/fr/notice/-/detail/471623-2026",
+  "attribution": "Source: TED — Tenders Electronic Daily (ted.europa.eu), © European Union, reused under Decision 2011/833/EU."
+}

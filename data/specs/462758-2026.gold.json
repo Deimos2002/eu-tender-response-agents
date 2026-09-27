@@ -1,0 +1,138 @@
+{
+  "tender_id": "462758-2026",
+  "language": "FRA",
+  "requirements": [
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "•Prix (45 %) sur la base du montant TTC : Hébergement, forfaits d’accompagnement (80%) ; PSE (20%)",
+      "expected": "out_of_scope",
+      "evidence_ids": [],
+      "points": 45.0,
+      "criterion_type": "price",
+      "id": "R-01"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Technique (50 %) sur la base des éléments suivants présents dans le mémoire technique : 1. Organisation de l’exploitation et de l’hébergement (10 %): architecture d’hébergement ; supervision ; sauvegardes ; PRA/PCA ; gestion des incidents ; engagements de service ; organisation du support. 2. Maintenance et évolutions techniques (10 %) : processus de prise en charge ; méthodologie de développement ; gestion des versions ; recette ; déploiement ; délais d’execution 3. Sécurité et protection des données (5 %) :sécurité des développements ; gestion des vulnérabilités ; supervision sécurité ; conformité RGPD ; gestion des incidents de sécurité. 4. Accompagnement lié aux besoins métiers (15 %) :compréhension des besoins métiers ; capacité à vulgariser les enjeux techniques et digitaux et à accompagner les utilisateurs non spécialistes ;animation d’ateliers ; formalisation des besoins ; priorisation ; accompagnement au changement ; délais d’execution 5. Expérience utilisateur, accessibilité et qualité des services numériques (10 %) :Expérience utilisateur ; ergonomie ; accessibilité RGAA ; SEO ; web analytics ; web marketing ; éco-conception. 6. Dossier de compétences (30 %) : cohérence de l’équipe ; interlocuteur dédié CHU de Rouen ; complémentarité et disponibilité de l’équipe ; séniorité et domaines d’expertise couverture des domaines techniques, fonctionnels et digitaux. Curriculum vitae anonymes de l’équipe Le candidat devra notamment démontrer sa capacité à mobiliser les compétences nécessaires à l’optimisation de la visibilité , de l’attractivité et de l’usage des services numériques notamment en matière de référencement naturel (SEO), de web analyse (web analytics), de communication digitale et d’amélioration continue des parcours utilisateurs. 7. Qualité de la PSE (20 %) : Le candidat remettra une note méthodologique de trois (3) pages maximum présentant : son approche liée aux usages de l’intelligence artificielle applicables au périmètre du marché ; les solutions et cas d’usage proposés, notamment en matière d’assistant conversationnel, de génération assistée de contenus multilingues et d’exploitation de bases documentaires ; les prérequis techniques et les modalités d’intégration au sein des services numériques existants ; les mesures envisagées en matière de sécurité, de protection des données et de gouvernance de l’IA ; les modalités d’accompagnement des utilisateurs, de conduite du changement et de montée en compétence ;",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 50.0,
+      "criterion_type": "quality",
+      "id": "R-02"
+    },
+    {
+      "source": "notice",
+      "category": "award_criterion",
+      "mandatory": true,
+      "text": "Développement Durable sur la base du questionnaire développement durable (5 %)",
+      "expected": "covered",
+      "evidence_ids": [],
+      "points": 5.0,
+      "criterion_type": "quality",
+      "id": "R-03"
+    },
+    {
+      "source": "bank",
+      "category": "delivery",
+      "mandatory": true,
+      "text": "Le titulaire présente un plan de réversibilité et de transfert de connaissances en fin de marché.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-001"
+      ],
+      "bank_key": "reversibility",
+      "id": "R-04"
+    },
+    {
+      "source": "bank",
+      "category": "data_protection",
+      "mandatory": true,
+      "text": "Le titulaire agit en tant que sous-traitant au sens de l'article 28 du RGPD : accord de sous-traitance, registre des traitements et DPO désigné.",
+      "expected": "covered",
+      "evidence_ids": [
+        "MET-004"
+      ],
+      "bank_key": "gdpr",
+      "id": "R-05"
+    },
+    {
+      "source": "bank",
+      "category": "references",
+      "mandatory": true,
+      "text": "Le candidat présente au moins trois références de prestations similaires réalisées depuis 2022.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-003",
+        "REF-006",
+        "REF-013",
+        "REF-014"
+      ],
+      "bank_key": "references",
+      "id": "R-06"
+    },
+    {
+      "source": "bank",
+      "category": "staffing",
+      "mandatory": true,
+      "text": "Le candidat désigne un responsable de prestation justifiant d'au moins dix ans d'expérience et joint les CV de l'équipe.",
+      "expected": "covered",
+      "evidence_ids": [
+        "CV-01",
+        "CV-02",
+        "CV-10"
+      ],
+      "bank_key": "team",
+      "id": "R-07"
+    },
+    {
+      "source": "bank",
+      "category": "technical",
+      "mandatory": true,
+      "text": "Le candidat démontre une expérience de migration d'applications vers le cloud public.",
+      "expected": "covered",
+      "evidence_ids": [
+        "REF-006",
+        "REF-014",
+        "CV-04"
+      ],
+      "bank_key": "cloud",
+      "id": "R-08"
+    },
+    {
+      "source": "bank",
+      "category": "hosting",
+      "mandatory": true,
+      "text": "L'hébergement est assuré directement par le titulaire sur une infrastructure qualifiée SecNumCloud.",
+      "expected": "gap",
+      "evidence_ids": [],
+      "gap_ids": [
+        "NOCERT-SECNUMCLOUD",
+        "MET-007"
+      ],
+      "bank_key": "gap_secnumcloud",
+      "id": "R-09"
+    }
+  ],
+  "constraints": {
+    "language": "FRA",
+    "max_pages": 20,
+    "required_sections": [
+      "Compréhension du besoin",
+      "Méthodologie",
+      "Équipe proposée",
+      "Références",
+      "Sécurité et protection des données",
+      "Planning",
+      "Matrice de conformité"
+    ],
+    "deadline": "2026-07-15",
+    "duration": {
+      "value": 36,
+      "unit": "MONTH"
+    }
+  }
+}
