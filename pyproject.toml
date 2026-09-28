@@ -22,6 +22,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=9", "ruff>=0.14"]
+langfuse = ["langfuse>=3,<4"]
 
 [tool.setuptools.packages.find]
 include = ["tw*"]

@@ -18,6 +18,7 @@ from typing import Any
 
 import httpx
 
+from tw import observe
 from tw.config import CACHE, load_dotenv
 
 PROVIDERS = {
@@ -59,7 +60,11 @@ class ChatLLM:
         self.provider, self.model = provider, model
         self.base_url, key_var = PROVIDERS[provider]
         self._key = os.environ.get(key_var, "")
-        if not self._key:
+        # Cache-only mode replays past runs and never calls the API: a cache miss is an error, not a paid call.
+        self.cache_only = os.environ.get("TW_CACHE_ONLY", "") == "1"
+        if self.cache_only and not use_cache:
+            raise LLMError("TW_CACHE_ONLY=1 needs the response cache")
+        if not self._key and not self.cache_only:
             raise LLMError(f"{key_var} is not set (add it to .env)")
         self.timeout, self.max_retries = timeout, max_retries
         self._db = None
@@ -70,7 +75,21 @@ class ChatLLM:
 
     def complete(self, messages: list[dict], *, tools: list[dict] | None = None, max_tokens: int = 4000,
                  force_tool: str | None = None) -> Completion:
-        """force_tool: name of the tool the model must call (structured output for a graph node)."""
+        """force_tool: name of the tool the model must call (structured output for a graph node).
+
+        With Langfuse configured, each call is one generation (messages, answer, tokens, cost, cache hit)."""
+        with observe.observation(f"{self.provider}.chat", as_type="generation", model=self.model, input=messages,
+                                 model_parameters={"max_tokens": max_tokens}) as gen:
+            comp = self._complete(messages, tools=tools, max_tokens=max_tokens, force_tool=force_tool)
+            observe.update(gen, output=comp.message, model=comp.model,
+                           usage_details={"input": comp.input_tokens, "output": comp.output_tokens},
+                           cost_details={"total": price(comp.model, comp.input_tokens, comp.output_tokens)},
+                           metadata={"cached": comp.cached, "original_latency_s": comp.latency_s,
+                                     "tools": [t["function"]["name"] for t in tools or []], "force_tool": force_tool})
+            return comp
+
+    def _complete(self, messages: list[dict], *, tools: list[dict] | None, max_tokens: int,
+                  force_tool: str | None) -> Completion:
         payload: dict[str, Any] = {"model": self.model, "messages": messages}
         if self.provider == "openai" and REASONING_MODEL.match(self.model):
             payload |= {"max_completion_tokens": max_tokens,
@@ -85,6 +104,8 @@ class ChatLLM:
             row = self._db.execute("SELECT value FROM cache WHERE key = ?", (key,)).fetchone()
             if row:
                 return Completion(**json.loads(row[0]) | {"cached": True})
+        if self.cache_only:
+            raise LLMError("cache miss with TW_CACHE_ONLY=1: this call was never made before")
         t0, delay = time.monotonic(), 2.0
         for attempt in range(self.max_retries + 1):
             try:

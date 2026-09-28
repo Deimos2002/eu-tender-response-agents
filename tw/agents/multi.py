@@ -20,6 +20,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph import END, START, StateGraph
 from langgraph.types import interrupt
 
+from tw import observe
 from tw.agents.baseline import RunResult
 from tw.hub import all_servers, connect
 from tw.kb import get_record, known_certifications, record_ids
@@ -294,9 +295,12 @@ def build_graph(llm, research_hub, usage: Usage, submit_hub=None):
         return {"approved": True, "submit_result": json.loads(result)}
 
     g = StateGraph(State)
-    for name, fn in (("reader", reader), ("planner", planner), ("researcher", researcher), ("writer", writer),
-                     ("reviewer", reviewer), ("approval", approval)):
-        g.add_node(name, fn)
+    # Each step is one Langfuse observation when tracing is on; the reviewer is deterministic code, so it is traced
+    # as an evaluator. The approval step is left out: its interrupt is how the graph is meant to stop.
+    for name, fn, kind in (("reader", reader, "agent"), ("planner", planner, "agent"), ("researcher", researcher, "agent"),
+                           ("writer", writer, "agent"), ("reviewer", reviewer, "evaluator")):
+        g.add_node(name, observe.node(name, fn, kind))
+    g.add_node("approval", approval)
     g.add_edge(START, "reader")
     g.add_edge("reader", "planner")
     g.add_edge("planner", "researcher")

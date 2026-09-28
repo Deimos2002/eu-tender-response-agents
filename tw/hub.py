@@ -21,6 +21,7 @@ from mcp.client.session import ClientSession
 from mcp.server.fastmcp import FastMCP
 from mcp.shared.memory import create_connected_server_and_client_session
 
+from tw import observe
 from tw.config import DATA
 
 MAX_RESULT_CHARS = 8000
@@ -74,6 +75,14 @@ class Hub:
                                                                      "parameters": schema}})
 
     async def call(self, name: str, arguments: dict) -> str:
+        with observe.observation(name, as_type="tool", input=arguments) as obs:
+            text = await self._call(name, arguments)
+            ok = self.log[-1].ok
+            observe.update(obs, output=text[:observe.MAX_TOOL_OUTPUT], metadata={"ok": ok, "chars": len(text)},
+                           level=None if ok else "WARNING")
+            return text
+
+    async def _call(self, name: str, arguments: dict) -> str:
         server, _, tool = name.partition("__")
         session = self.sessions.get(server)
         allowed = {t["function"]["name"] for t in self.tools}
